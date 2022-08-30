@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{}
+a{
+    text-decoration: none
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}
+#header{
+    background-image: url(/img/backgroung_1.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 25vh;
+    width: 100%;
+}
+.bar{
+    display: flex;
+    padding-bottom: 10vh;
+    background-image: url(/img/paper_cut-1.png);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.bar .logo{
+    margin-top: 30px;
+    margin-left: 10vh;
+}
+.bar nav{
+    margin-top: 80px;
+    margin-left: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0 25px;
+}
+nav ul li a{
+    color: #54524f;
+}
+nav ul li a:hover{
+    color: black;
+}
+.header-text{
+    margin-top: 15vh;
+    margin-left: 10vh;
+}
+.header-text h1{
+    font-size: 10vh;
+    width: 70vh;
+    color: #deb37e;
+    text-shadow: 5px -3px 5px #d1cfcc;
+}
+.header-text h4{
+    font-size: 3vh;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-style: italic;
+    color: #54524f;
+}
+.btn{
+    background-color: #fefefd;
+    color: #776c64;
+    border: none;
+    outline: none;
+    margin-top: 7vh;
+    width: 24vh;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+}
+.header-text h5{
+    color: #54524f;
+    font-size: 22px;
+    width: 435px;
+    font-style: italic;
+    margin-top: 20px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+.paper_2{
+    background-image: url(/img/paper_cut-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -90px;
+    height: 200px;
+}
+
+/*------story section-----*/
+
+#story{
+   width: 100%; 
+}
+.story-intro{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.story-intro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #e2a355;
+    margin-bottom: 20px;
+}
+.story-intro h3{
+    width: 100%;
+    max-width: 750px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: #7f7770;
+    opacity: 0.7;
+}
+.grid_3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-content{
+    background-color: #7f7770;
+    padding: 30px 20px;
+    width: 300px;
+    margin-top: -5px;
+}
+.text-content h2{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text-content h4{
+    color: #f6f6f5;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.shadow{
+    margin-top: -250px;
+}
+.btn-brown{
+    position: absolute;
+    background-color: #7f7770;
+    color: #ffffff;
+    width: 310px;
+    height: 70px;
+    border-radius: 50px;
+    margin-top: -200px;
+    margin-left: 75vh;
+}
+
+/*-----trial-----*/
+
+#trial{}
+.trial-text{
+    color: #ffffff;
+}
+.trial-1{
+    display: flex;
+}
+.trial-1 img{
+    flex-basis: 50%;
+}
+.trial-1 .trial-text{
+    flex-basis: 50%;
+    background-color: #7f7770;
+}
+.trial-1 .trial-text h1{
+    font-size: 60px;
+    width: 550px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.trial-1 .trial-text h3{
+    text-align: left;
+    font-size: 30px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 50px;
+    opacity: 0.8;
+}
+.trial-1 .trial-text .btn{
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+    background-color: #e2a355;
+    color: #ffffff;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+.trial-1 .trial-text .btn:hover{
+    background-color: black;
+}
+.trial-2{
+    display: flex;
+}
+.trial-2 img{
+    flex-basis: 50%;
+}
+.trial-2 .trial-text{
+    flex-basis: 50%;
+    background-color: #deb37e;
+}
+.trial-2 .trial-text h1{
+    font-size: 60px;
+    width: 550px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.trial-2 .trial-text h3{
+    text-align: left;
+    font-size: 30px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 200px;
+    opacity: 0.8;
+}
+.trial-2 .trial-text .btn{
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    height: 70px;
+    margin-top: 80px;
+    margin-left: 200px;
+    background-color: #e4993c;
+    color: #ffffff;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+.trial-2 .trial-text .btn:hover{
+    background-color: black;
+}
+
+/*-----qoute-----*/
+
+#qoute{
+    background-color: #99928d;
+    padding-bottom: 100px;
+}
+#qoute .responsive{
+    width: 100%;
+}
+#qoute h1, #qoute h3{
+    color: #ffffff;
+    text-align: center;
+}
+#qoute h1{
+    margin-top: 80px;
+    font-size: 70px;
+}
+#qoute h3{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    font-size: 40px;
+    width: 950px;
+    opacity: 0.8;
+}
+#qoute .responsive-1{
+    position: absolute;
+    margin-top: -500px;
+}
+#qoute .responsive-2{
+    position: absolute;
+    width: 100%;
+}
+
+#hike{
+    font-family: monospace;
+    font-weight: bold;
+}
+#hike .explore{
+    position: absolute;
+    margin-top: -80vh;
+    margin-left: 140vh;
+    font-size: 10vh;
+    color: #deb37e;
+    text-shadow: 2px -5px 4px #b6babc;
+}
+#hike .world{
+    position: absolute;
+    margin-top: -68vh;
+    margin-left: 128vh;
+    font-size: 10vh;
+    letter-spacing: 2px;
+    color: #54524f;
+    text-shadow: 3px -5px 4px #bbbab7;
+}
+#hike .responsive{
+    margin-top: -100vh;
+    width: 100%;
+}
+.grid-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-1 .content{
+    flex-basis: 30%;
+}
+.grid-1 .content h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #deb37e;
+}
+.grid-1 .content h4{
+    color: #a0a4a7;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.qoute{
+    text-align: center;
+    margin-top: 100px;
+}
+.qoute h1{
+    font-size: 80px;
+    width: 3%;
+    margin: auto;
+}
+.qoute h2{
+    width: 55%;
+    margin: auto;
+    font-size: 30px;
+    opacity: 0.6;
+}
+.qoute h4{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.qoute .responsive{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 15%;
+}
+#unknown .re-size{
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+}
+
+#subscribe{
+    background-color: #deb37e;
+    padding-top: 30vh;
+    margin-top: 30vh;
+}
+#subscribe h1{
+    width: 20%;
+    color: #ffffff;
+    font-size: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+#subscribe h3{
+    font-size: 4vh;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #54524f;
+    opacity: 0.6;
+    margin-bottom: 10vh;
+}
+#subscribe .box{
+    display: inline;
+    margin-left: 25%;
+}
+.box input[type=email]{
+    width: 70vh;
+    height: 7vh;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 10vh;
+    padding-left: 3vh;
+}
+.box input[type=submit]{
+    width: 25vh;
+    height: 7vh;
+    font-size: 18px;
+    background-color: #54524f;
+    color: #ffffff;
+    border: none;
+    border-radius: 10vh;
+   transform: translate(-80px,-3px);
+}
+#subscribe img{
+    width: 100%;
+    transform: translateY(15vh);
+}
+
+#footer{
+    background-color: #7f7770;
+    color: #ffffff;
+    display: flex;
+    padding: 300px 90px 60px;
+}
+#footer h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#footer h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.left-footer{
+    flex-basis: 50%;
+}
+.left-footer .social-icon{
+    margin-top: 50px;
+}
+.left-footer h4{
+    width: 60%;
+}
+.right-footer{
+    flex-basis: 70%;
+    display: flex;
+}
+.content_1,.content_2,.content_3{
+    flex-basis: 50%;
+}
